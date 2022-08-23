@@ -1,0 +1,543 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* styling all lists in the page */
+ul{
+    list-style: none;
+    text-align: left;
+    margin-top: 15px;
+}
+/* styling links in the page */
+a{
+    color: white;
+    font-size: 18px;
+    font-weight: 10px;
+    text-decoration: none;
+    padding-bottom: 1px;
+    text-transform: uppercase;
+}
+/* Start styling of first section */
+/* first section (height, width, background image, font family) */
+.first_section{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: url(https://cutewallpaper.org/21/pink-and-purple-ombre-background/Bright-Pink-and-Purple-Ombre-Solid-color-backgrounds-.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    width: 100%;
+    padding-bottom: 100px;
+}
+/* make the elements in the header to be flex */
+.container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1100px){
+    .container .nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* logo */
+.logo2{
+    display: flex;
+    color: white;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+/* icon beside the logo */
+.logo{
+    margin-left: 5px;
+}
+li{
+    margin-right: 15px;
+}
+ul a:hover{
+    color: rgb(246, 182, 246);
+    transition: 1s;
+}
+/* styling button1 */
+.Button1 button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 3px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* the link inside button1 */
+.Button1 a{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.Button1 button:hover{
+    background-color:rgb(238, 129, 179);
+    transition: 1s;
+}
+
+/* the paraghraph in the middle */
+.about{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    font-size: 15px;   
+}
+/* first paragraph */
+.about1{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.6;   
+}
+/* third paragraph */
+.about2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* styling button2 */
+.Button2 button {
+    background-color: white;
+    border: transparent;
+    box-shadow: 0 0 40px whitesmoke;
+    padding: 20px 15px;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/* media query for the button */
+@media (max-width:992px){
+    .Button2 button{
+        padding: 3px 3px;
+        border-radius: 10px;
+    }
+}
+/* link inside button2 */
+.Button2 a{
+    color: purple;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+}
+@media (max-width:992px){
+    .Button2 a{
+        font-size: 8px;
+    }
+}
+.Button2 button:hover{
+    background-color:rgb(244, 166, 202);
+    transition: 1s;
+}
+/* End styling of first section */
+
+/* Start sty;ing of the second section */
+.second_section{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin-bottom: 100px;
+    
+}
+/* styling container of the second section */
+.second_section .container2{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    color: black;
+    padding-top: 150px;
+    margin-top: 40px;
+}
+/* first paragraph */
+.p1{
+    font-size: 7px;
+    color: purple;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+/* second paragraph */
+.p2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/* third paragraph */
+.p3{
+    font-size: 13px;
+    opacity: 0.8; 
+}
+/* style the line in the page */
+hr.new{
+   width: 13%;
+   height: 4px;
+   border: 0 none;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 20px;
+   margin-bottom:20px;
+   background-color:purple;
+}
+/* image */
+.img1 img{
+    width: 750px;
+    height: 500px;
+}
+/* media query for the image */
+@media (max-width:992px){
+    .img1 img{
+        width: 200px;
+        height: 200px;
+    }
+}
+/* fourth paragraph */
+.p4{
+    font-size: 17px;
+    opacity: 0.7; 
+    margin-top: 30px;
+}
+/* styling button3 */
+.Button3 button {
+    background-color: purple;
+    border: transparent;
+    box-shadow: 0 0 40px purple;
+    padding: 25px 20px;
+    border-radius: 38px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/* media query for the button */
+@media (max-width:992px){
+    .Button3 button{
+        padding: 3px 3px;
+        border-radius: 10px;
+    }
+}
+.Button3 a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+}
+@media (max-width:992px){
+    .Button3 a{
+        font-size: 8px;
+    }
+}
+.Button3 button:hover{
+    background-color:rgb(136, 77, 105);
+    transition: 1s;
+}
+/* End styling of the second section */
+
+/* Start styling of the third section */
+.third_section{
+    background-color: rgb(24, 5, 28);
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+}
+/* styling the container of the first part of this section */
+.third_section .container3{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* style the line in this section */
+hr.new2{
+    width: 13%;
+    height: 4px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    background-color:white;
+ }
+.p6{
+    font-size: 15px;
+    font-weight: 200;
+    opacity: 0.9;
+}
+/* first three squares in this section */
+.third_section .boxes{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin: auto;
+}
+/* last two squares */
+.boxes2{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* styling the boxes */
+.boxes .box1, .boxes .box2, .boxes .box3, .boxes2 .box4, .boxes2 .box5{
+    width: 300px;
+    height: 280px;
+    color: rgb(24, 5, 28);
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+/* header in each box */
+.p7{
+    font-size: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+/* paragraph in each box */
+.p8{
+    font-size: 15px;
+    opacity: 0.7;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* styling the circle that found in each box */
+.box1 .circle1, .box2 .circle2, .box3 .circle3, .box4 .circle4, .box5 .circle5{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    background-color: purple;
+    transform: translate(-50%,-50%);
+    margin-left: 60px;
+    
+}
+/* icon inside the circle */
+.circle1 i, .circle2 i, .circle3 i, .circle4 i, .circle5 i{
+    padding-top: 21px;
+    padding-left: 20px;
+    font-size: 28px;
+}
+/* End styling of third section */
+
+/* Start styling of fourth section */
+.Fourth_section{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    padding-bottom: 150px;
+}
+/* first container for the paragraph */
+.Fourth_section .container4{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    color: rgb(24, 5, 28);
+    padding-top: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* paragraph */
+.container4 .p6{
+    font-size: 15px;
+    font-weight: 200;
+    opacity: 0.9;
+}
+/* the small line in this section */
+hr.new3{
+    width: 13%;
+    height: 4px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    background-color: rgb(24, 5, 28);
+ }
+ /* container for the second part in the page with photo and the paragraph */
+ .Fourth_section .container5{
+    margin: auto;
+    width: 65%;
+    display: flex;
+    border: transparent;
+    box-shadow: 0 0 40px gray;
+
+ }
+ /* image */
+.img2 img{
+    width: 400px;
+    height: 100%;
+    margin-right: 30px;
+    background-size: cover;
+
+}
+/* circle that has the icon */
+.info .circle5{ 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(25,139,253,255);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* styling the icon */
+.circle5 i{
+    padding-top: 21px;
+    padding-left: 24px;
+    font-size: 28px;
+    color: white;
+}
+/* paragraph */
+.p9{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+/* paragraph */
+.p10{
+    font-size: 16px;
+    font-weight: lighter;
+    opacity: 0.6;
+    line-height: 26px;
+}
+/* the three buttons in this section */
+.buttons{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 150px;
+}
+.Button4 button, .Button5 button, .Button6 button{
+    /* background-color: transparent; */
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    padding: 3px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.Button4 a, .Button5 a, .Button6 a{
+    color: black;
+    font-size: 6px;
+    opacity: 0.9;
+}
+.Button4 button:hover, .Button5 button:hover, .Button6 button:hover{
+    background-color:rgba(25,139,253,255);
+    transition: 1s;
+}
+/* End styling of fourth section */
+
+/* Start styling fifth section */
+/* fifth section styling with background image, width and height */
+.fifth_section{
+    background-image: url(https://cutewallpaper.org/21/pink-and-purple-ombre-background/Bright-Pink-and-Purple-Ombre-Solid-color-backgrounds-.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 130vh; 
+}
+/* container for the paragraph in this section */
+.fifth_section .container6{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+/* the small line in this section */
+hr.new4{
+    width: 12%;
+    height: 4px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    background-color: white;
+ }
+ /* Start styling inputs */
+ input {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: transparent;
+    margin-left: 25%;
+  }
+  .name input{
+    /* icon in each input */
+    background: url(../imgs/icons8-user-24.png) 0 0 / 25px 25px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    padding: 12px 20px 12px 40px;
+  }
+  .email input{
+    background: url(../imgs/icons8-mail-30.png) 0 0 / 25px 25px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    padding: 12px 20px 12px 40px;
+  }
+  .help input{
+    background: url(../imgs/icons8-help-50.png) 0 0 / 25px 25px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 200px 40px; 
+  }
+  ::placeholder{
+    color: white;
+  }
+  /* End styling the inputs */
+  .Button7{
+    width: 20%;
+    margin: auto;
+  }
+  /* button */
+.Button7 button {
+background-color: white;
+border: none;
+padding: 20px 15px;
+border-radius: 35px;
+cursor: pointer;
+margin-top: 50px;
+}
+.Button7 a{
+    font-weight: bolder;
+    font-size: 15px;
+    color: purple;
+}
+.Button7 button:hover{
+    background-color: rgb(244, 166, 202);
+    transition: 1s;
+}
+
+/* End styling of fifth section */
+
